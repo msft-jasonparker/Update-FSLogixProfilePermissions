@@ -1,4 +1,3 @@
-Function Update-FSLogixProfilePermissions {
     <#
         .SYNOPSIS
             Updates the NTFS permissions on existing folders for FSLogix Profile Containers.
@@ -189,4 +188,3 @@ Function Update-FSLogixProfilePermissions {
         $stopWatch.Stop()
         Write-Verbose ("Process Completed in: {0}" -f $stopWatch.Elapsed)
     }
-}
